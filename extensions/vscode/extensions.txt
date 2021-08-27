@@ -8,7 +8,6 @@ jmrog.vscode-nuget-package-manager
 ms-vscode.mono-debug
 RandomFractalsInc.vscode-data-preview
 sgryjp.japanese-word-handler
-Shan.code-settings-sync
 shuworks.vscode-table-formatter
 VisualStudioExptTeam.vscodeintellicode
 vscode-icons-team.vscode-icons

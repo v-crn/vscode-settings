@@ -65,7 +65,6 @@ RandomFractalsInc.vscode-data-preview
 rebornix.ruby
 richie5um2.vscode-sort-json
 sgryjp.japanese-word-handler
-Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
 shuworks.vscode-table-formatter
 tamasfe.even-better-toml
