@@ -23,7 +23,7 @@ Visual Studio Code (vscode) の設定ファイルを管理するリポジトリ
 
 ### macOS
 
-`$HOME/Library/Application\ Support/Code/User`
+`~/Library/Application\ Support/Code/User`
 
 - スペースにはバクスラ `\` 付けるの忘れずに
 
@@ -41,6 +41,14 @@ git diff .vscode/settings.json $FILE
 ```
 
 ## 設定の適用
+
+### 設定の上書き
+
+`.vscode` 以下のファイル群を `~/Library/Application\ Support/Code/User` にコピーする。
+
+```sh
+make setting
+```
 
 ### ローカルデバイスのみで適用したい設定
 
