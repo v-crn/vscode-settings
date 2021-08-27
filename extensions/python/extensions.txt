@@ -1,0 +1,10 @@
+brainfit.vscode-importmagic
+graykode.ai-docstring
+magicstack.MagicPython
+mgesbert.python-path
+ms-pyright.pyright
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+njpwerner.autodocstring
+tushortz.python-extended-snippets

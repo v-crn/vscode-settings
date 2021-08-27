@@ -1,0 +1,7 @@
+bung87.vscode-gemfile
+castwide.solargraph
+kaiwood.endwise
+misogi.ruby-rubocop
+rebornix.ruby
+vortizhe.simple-ruby-erb
+wingrunr21.vscode-ruby

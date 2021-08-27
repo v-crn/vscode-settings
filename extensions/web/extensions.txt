@@ -1,0 +1,6 @@
+aliariff.vscode-erb-beautify
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+HookyQR.beautify
+michelemelluso.code-beautifier
+mgmcdermott.vscode-language-babel

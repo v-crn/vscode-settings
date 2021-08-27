@@ -1,0 +1,14 @@
+alefragnani.Bookmarks
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer-2
+formulahendry.code-runner
+IBM.output-colorizer
+IronGeek.vscode-env
+jmrog.vscode-nuget-package-manager
+ms-vscode.mono-debug
+RandomFractalsInc.vscode-data-preview
+sgryjp.japanese-word-handler
+Shan.code-settings-sync
+shuworks.vscode-table-formatter
+VisualStudioExptTeam.vscodeintellicode
+vscode-icons-team.vscode-icons
