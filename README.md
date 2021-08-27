@@ -66,6 +66,12 @@ make setting
 make install
 ```
 
+Web 開発で用いられる基本的な拡張機能だけをインストールする場合:
+
+```sh
+make install_basic
+```
+
 ### インストール済み拡張機能一覧の生成
 
 ```sh
