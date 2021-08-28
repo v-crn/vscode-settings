@@ -1,4 +1,5 @@
 e=""
+DEFAULT_DIR=~/Library/Application\ Support/Code/User
 
 .PHONY: list
 list:
@@ -18,4 +19,9 @@ install_basic:
 
 .PHONY: up
 up:
-	cp -pR .vscode/* ~/Library/Application\ Support/Code/User
+	cp -pR .vscode/* ${DEFAULT_DIR}
+
+
+.PHONY: diff
+diff:
+	git diff .vscode/settings.json ${DEFAULT_DIR}/settings.json

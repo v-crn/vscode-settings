@@ -2,6 +2,10 @@
 
 Visual Studio Code (vscode) の設定ファイルを管理するリポジトリ
 
+## 前提
+
+- macOS
+
 ## 対象ファイル
 
 - extensions.json
@@ -33,26 +37,25 @@ Visual Studio Code (vscode) の設定ファイルを管理するリポジトリ
 
 ## 差分の確認
 
-`git diff` コマンドや `diff -u` コマンドを利用して現在適用されている設定ファイルとの差分を確認することができる。
+現在適用されている settings.json との差分を確認
 
 ```sh
-FILE=~/Library/Application\ Support/Code/User/settings.json
-git diff .vscode/settings.json $FILE
+make diff
 ```
 
 ## 設定の適用
 
 ### 設定の上書き
 
-`.vscode` 以下のファイル群を `~/Library/Application\ Support/Code/User` にコピーする。
+次のコマンドで `.vscode` 以下のファイル群を `~/Library/Application\ Support/Code/User` にコピーし、設定を適用する。
 
 ```sh
-make setting
+make up
 ```
 
 ### ローカルデバイスのみで適用したい設定
 
-ローカルのデバイスのみで適用したい設定は `settings.local.json` に記述する。
+ローカルのデバイスのみで適用したい設定は `settings.local.json` を作成してその中に記述する。
 
 ### 現在のワークスペースのみに適用したい設定
 
@@ -75,21 +78,14 @@ make install_basic
 ### インストール済み拡張機能一覧の生成
 
 ```sh
-make extensions
+make list
 ```
 
-### 環境別拡張機能
+### 環境別拡張機能のインストール
 
 `extensions` ディレクトリ以下には用途に分けて extensions.txt を配置した。
 個別にインストールする場合は次のように変数 `e` に対象のディレクトリ名を指定する。
 
 ```sh
 make install e=markdown
-```
-
-あるいは Makefile で参照している shell スクリプトからインストール　することもできる。
-この場合は第2引数にディレクトリ名を指定する。
-
-```sh
-install_extensions.sh markdown
 ```
