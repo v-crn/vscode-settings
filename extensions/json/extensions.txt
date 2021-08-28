@@ -1,2 +1,1 @@
 richie5um2.vscode-sort-json
-ZainChen.json
