@@ -16,6 +16,6 @@ install_basic:
 	sh install_basic_extensions.sh ${e}
 
 
-.PHONY: settings
-settings:
+.PHONY: up
+up:
 	cp -pR .vscode/* ~/Library/Application\ Support/Code/User
