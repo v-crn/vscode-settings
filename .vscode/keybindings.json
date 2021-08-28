@@ -1,2 +1,20 @@
-// Place your key bindings in this file to override the defaultsauto[]
-[]
+[
+  {
+    "key": "cmd+;",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "cmd+;",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "editor.action.sortLinesDescending"
+  }
+]
