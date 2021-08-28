@@ -5,7 +5,6 @@ bierner.markdown-preview-github-styles
 DavidAnson.vscode-markdownlint
 jebbs.markdown-extended
 jebbs.plantuml
-marp-team.marp-vscode
 mushan.vscode-paste-image
 shd101wyy.markdown-preview-enhanced
 yzhang.markdown-all-in-one
