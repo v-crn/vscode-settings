@@ -1,3 +1,6 @@
+### vscode-settings ###
+extensions/installed_extensions.txt
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
