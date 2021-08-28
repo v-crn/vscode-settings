@@ -16,5 +16,15 @@
   {
     "key": "ctrl+shift+m",
     "command": "editor.action.sortLinesDescending"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
   }
 ]
