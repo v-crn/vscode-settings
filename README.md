@@ -37,10 +37,19 @@ Visual Studio Code (vscode) の設定ファイルを管理するリポジトリ
 
 ## 差分の確認
 
-現在適用されている settings.json との差分を確認
+`.vscode` 以下のファイルと現在適用されている設定ファイルとの差分を確認
 
 ```sh
 make diff
+```
+
+差分がなければ次のように表示される。
+
+```console
+$ make diff
+extensions.json
+keybindings.json
+settings.json
 ```
 
 ## 設定の適用
@@ -72,7 +81,7 @@ make install
 Web 開発で用いられる基本的な拡張機能だけをインストールする場合:
 
 ```sh
-make install_basic
+make install/basic
 ```
 
 ### インストール済み拡張機能一覧の生成

@@ -13,6 +13,5 @@ extensions=(
 
 for ext in "${extensions[@]}"
 do
-    filepath="extensions/$ext/extensions.txt"
-    sh install_extensions.sh ${filepath}
+    sh shell/install_extensions.sh ${ext}
 done
