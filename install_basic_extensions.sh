@@ -7,6 +7,8 @@ extensions=(
     "toml"
     "vscode"
     "web"
+    "xml"
+    "yaml"
 )
 
 for ext in "${extensions[@]}"
