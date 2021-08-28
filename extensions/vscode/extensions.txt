@@ -9,5 +9,6 @@ ms-vscode.mono-debug
 RandomFractalsInc.vscode-data-preview
 sgryjp.japanese-word-handler
 shuworks.vscode-table-formatter
+streetsidesoftware.code-spell-checker
 VisualStudioExptTeam.vscodeintellicode
 vscode-icons-team.vscode-icons
