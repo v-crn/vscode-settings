@@ -26,6 +26,14 @@ list:
 	code --list-extensions > extensions/extensions.txt
 
 
+.PHONY: pull
+pull:
+	@for filename in ${CONFIG_FILES}; do \
+		echo $$filename; \
+		cp -pR ${DEFAULT_DIR}/$$filename .vscode/$$filename; \
+	done
+
+
 .PHONY: up
 up:
 	cp -pR .vscode/* ${DEFAULT_DIR}

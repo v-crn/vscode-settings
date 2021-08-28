@@ -84,12 +84,6 @@ Web 開発で用いられる基本的な拡張機能だけをインストール�
 make install/basic
 ```
 
-### インストール済み拡張機能一覧の生成
-
-```sh
-make list
-```
-
 ### 環境別拡張機能のインストール
 
 `extensions` ディレクトリ以下には用途に分けて extensions.txt を配置した。
@@ -97,4 +91,21 @@ make list
 
 ```sh
 make install e=markdown
+```
+
+### インストール済み拡張機能一覧の生成
+
+ローカルのインストール済み拡張機能の一覧を `extensions/extensions.txt` に出力する。
+
+```sh
+make list
+```
+
+### ローカルの設定ファイルを `.vscode` 以下にコピーする
+
+既にローカルに適用されている設定ファイルを `.vscode` 以下にコピーする。
+※すべての設定ファイルではなく、ここで管理している対象ファイルのみ
+
+```sh
+make pull
 ```
