@@ -81,15 +81,15 @@ make extensions
 ### 環境別拡張機能
 
 `extensions` ディレクトリ以下には用途に分けて extensions.txt を配置した。
-個別にインストールする場合は次のように `file` 変数にファイルパスを指定する。
+個別にインストールする場合は次のように変数 `e` に対象のディレクトリ名を指定する。
 
 ```sh
-make install file=extensions/markdown/extensions.txt
+make install e=markdown
 ```
 
-あるいは Makefile で参照している shell スクリプトからインストールすることもできる。
-この場合は第2引数にファイルパスを指定する。
+あるいは Makefile で参照している shell スクリプトからインストール　することもできる。
+この場合は第2引数にディレクトリ名を指定する。
 
 ```sh
-sh install_extensions.sh extensions/markdown/extensions.txt
+install_extensions.sh markdown
 ```

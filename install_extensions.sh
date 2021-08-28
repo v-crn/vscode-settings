@@ -1,7 +1,7 @@
 if [ -z "$1" ]; then
-  filepath=extensions.txt
+  filepath=extensions/extensions.txt
 else
-    filepath=$1
+    filepath=extensions/$1/extensions.txt
 fi
 
 echo "From $filepath\n"
