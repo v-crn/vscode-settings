@@ -3,6 +3,7 @@ christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2
 formulahendry.code-runner
 IBM.output-colorizer
+ionutvmi.path-autocomplete
 IronGeek.vscode-env
 jmrog.vscode-nuget-package-manager
 ms-vscode.mono-debug
