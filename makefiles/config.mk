@@ -3,7 +3,7 @@ LOCAL_CONFIG_DIR:=~/Library/Application\ Support/Code/User
 
 .PHONY: diff/cfg
 diff/cfg:
-	@for filename in ${CONFIG_FILES}; do \
+	for filename in ${CONFIG_FILES}; do \
 		echo $$filename; \
 		git diff .vscode/$$filename ${LOCAL_CONFIG_DIR}/$$filename; \
 	done
@@ -12,7 +12,7 @@ diff/cfg:
 
 .PHONY: pull
 pull:
-	@for filename in ${CONFIG_FILES}; do \
+	for filename in ${CONFIG_FILES}; do \
 		echo $$filename; \
 		cp -pR ${LOCAL_CONFIG_DIR}/$$filename .vscode/$$filename; \
 	done
@@ -20,4 +20,7 @@ pull:
 
 .PHONY: up
 up:
+	for filename in ${CONFIG_FILES}; do \
+		cp -pR ${LOCAL_CONFIG_DIR}/$$filename ${LOCAL_CONFIG_DIR}/$$filename.bak; \
+	done
 	cp -pR .vscode/* ${LOCAL_CONFIG_DIR}
