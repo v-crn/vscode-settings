@@ -10,7 +10,6 @@ diff/ext: list
 
 .PHONY: install
 install:
-	filepath=extensions/${e}/extensions.txt
 	sh shell/install_extensions.sh ${e}
 
 

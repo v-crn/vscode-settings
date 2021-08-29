@@ -1,4 +1,9 @@
-extensions=(
+. shell/functions/install.sh
+. shell/functions/list_extensions.sh
+. shell/functions/valid_filepath.sh
+
+
+EXTENSIONS=(
     "emoji"
     "git"
     "json"
@@ -11,7 +16,6 @@ extensions=(
     "yaml"
 )
 
-for ext in "${extensions[@]}"
-do
-    sh shell/install_extensions.sh ${ext}
-done
+filepath=`valid_filepath ${EXTENSIONS}`
+ext_array=`list_extensions ${filepath}`
+install ${ext_array}

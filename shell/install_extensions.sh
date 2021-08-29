@@ -1,13 +1,7 @@
-if [ -z "$1" ]; then
-  filepath=extensions/extensions.txt
-else
-  filepath=extensions/$1/extensions.txt
-fi
+. shell/functions/install.sh
+. shell/functions/list_extensions.sh
+. shell/functions/valid_filepath.sh
 
-echo "From $filepath\n"
-extensions=$(cat $filepath)
-
-for extension in $extensions; do
-  echo "$extension ..."
-  code --install-extension $extension
-done
+filepath=`valid_filepath $1`
+ext_array=`list_extensions ${filepath}`
+install ${ext_array}
