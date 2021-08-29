@@ -1,2 +1,1 @@
 giflens.giflens
-tonybaloney.vscode-pets
