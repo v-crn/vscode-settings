@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "bierner.markdown-checkbox",
+    "bierner.markdown-footnotes",
+    "bierner.markdown-image-size",
+    "bierner.markdown-preview-github-styles",
+    "DavidAnson.vscode-markdownlint",
+    "jebbs.markdown-extended",
+    "jebbs.plantuml",
+    "mushan.vscode-paste-image",
+    "shd101wyy.markdown-preview-enhanced",
+    "yzhang.markdown-all-in-one"
+  ],
+  "unwantedRecommendations": []
+}
