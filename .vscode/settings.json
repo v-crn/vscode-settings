@@ -147,6 +147,26 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "\"Cica\"",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "icon": "terminal-bash",
+      "path": "bash"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "pwsh": {
+      "icon": "terminal-powershell",
+      "path": "pwsh"
+    },
+    "tmux": {
+      "icon": "terminal-tmux",
+      "path": "tmux"
+    },
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    }
+  },
   "terminal.integrated.profiles.osx": {
     "bash": {
       "args": ["-l"],
