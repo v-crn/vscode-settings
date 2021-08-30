@@ -24,7 +24,7 @@ make diff/config
 # .vscode 内の設定を適用
 make apply
 
-# 既存の対象ファイルを .vscode/ 以下にコピー
+# 既に適用されているローカル設定ファイルを .vscode/ 以下にコピー
 make pull
 ```
 
@@ -43,20 +43,20 @@ make pull
 ### 拡張機能関連のコマンド
 
 ```sh
-# インストール済み拡張機能の一覧 extensions/extensions.txt を作成
+# インストール済み拡張機能の一覧を作成
 make list
 
 # 基本的な拡張機能をインストール
 make install/basic
 
-# .vscode/以下のすべてのフォルダ内の extensions.json
+# .vscode/ 以下のすべてのフォルダ内の extensions.json
 # または extensions.txt を参照して拡張機能をインストール
 make install/all
 
 # .vscode/ 以下のフォルダ名を指定して拡張機能をインストール
 make install e=markdown
 
-# ファイルパスを指定して拡張機能をインストール
+# 任意の場所にあるファイルを指定して拡張機能をインストール
 make install e=/path/to/extensions.json
 make install e=/path/to/extensions.txt
 ```
