@@ -164,6 +164,7 @@
       "path": "tmux"
     },
     "zsh": {
+      "args": ["-l"],
       "path": "/usr/bin/zsh"
     }
   },
