@@ -1,8 +1,8 @@
-install()
+uninstall()
 {
     # $1: ext_array
     for ext in $1; do
-        code --install-extension $ext
+        code --uninstall-extension $ext
         echo "\n"
     done
 }

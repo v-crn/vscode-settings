@@ -1,11 +1,12 @@
 . shell/config.sh
-. shell/functions/install.sh
 
 
 valid_filepath()
 {
-    filepath="${DEFAULT_EXTENSIONS}"
-    if [ -d "${VS_DIR}/$1" ]; then
+    if [ -z $1 ]; then
+        echo "Error: Input arg is null."
+        return 1
+    elif [ -d "${VS_DIR}/$1" ]; then
         # "${VS_DIR}/$1" ディレクトリが存在する場合
         filepath="${VS_DIR}/$1/extensions.json"
 
