@@ -2,9 +2,12 @@
 
 Visual Studio Code (vscode) の設定ファイルを管理するリポジトリ
 
-## 環境
+## 前提条件
 
-macOS
+- macOS
+- git
+- jq
+- code
 
 ## 設定ファイルの管理
 
@@ -95,7 +98,7 @@ $ make install
 parse error: Invalid numeric literal
 ```
 
-よくある間違い
+【よくある間違い】
 
 次のような形でコメントを入れてしまうとエラーになる。
 本来的に JSON 形式はコメントを許容していない。
@@ -114,7 +117,7 @@ parse error: Invalid numeric literal
 
 この例は VS Code の機能で生成したデフォルトの extensions.json である。VS Code は JSON でのコメントを許している。おそらく読み込み時に前処理をかけて取り除いているんだろう。確かにコメントを付けられるのは便利だ。
 
-どうしてもコメントを入れたいときはたとえばこんなふうにしたらよいんじゃないかな。
+どうしてもコメントを入れたいときはたとえばこんなふうにしてみたらどうだろう？
 
 ```json
 {
