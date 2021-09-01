@@ -20,6 +20,8 @@ Visual Studio Code (vscode) の設定ファイルを管理するリポジトリ
 - settings.json
   - 全般的な設定
 
+### 設定ファイル関連のコマンド
+
 ```sh
 # 現在適用されている設定ファイルとの差分を確認
 make diff/config
