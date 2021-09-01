@@ -67,6 +67,7 @@
   },
   "breadcrumbs.enabled": true,
   "cSpell.ignoreRegExpList": ["[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"],
+  "cSpell.userWords": ["Brewfile", "elif"],
   "debug.inlineValues": true,
   "debug.internalConsoleOptions": "openOnSessionStart",
   "debug.openDebug": "openOnSessionStart",
@@ -144,6 +145,12 @@
   "remote.SSH.connectTimeout": 60,
   "remote.SSH.useLocalServer": false,
   "search.showLineNumbers": true,
+  "sortJSON.contextMenu": {
+    "sortJSONAlphaNumReverse": false,
+    "sortJSONKeyLengthReverse": false,
+    "sortJSONTypeReverse": false,
+    "sortJSONValuesReverse": false
+  },
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "\"Cica\"",
   "terminal.integrated.fontSize": 14,
