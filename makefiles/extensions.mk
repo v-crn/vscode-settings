@@ -5,6 +5,7 @@ e:=""
 
 .PHONY: list
 list: ## インストール済み拡張機能の一覧を作成
+	mkdir -p ${EXT_DIR}
 	code --list-extensions > ${INSTALLED_EXT_TXT}
 
 
