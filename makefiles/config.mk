@@ -9,9 +9,8 @@ diff/config: ## 現在適用されている設定ファイルとの差分を確�
 	done
 
 
-
 .PHONY: pull
-pull: ## # 既に適用されているローカル設定ファイルを .vscode/ 以下にコピー
+pull: ## 既に適用されているローカル設定ファイルを .vscode/ 以下にコピー
 	for filename in ${CONFIG_FILES}; do \
 		echo $$filename; \
 		cp -pR ${LOCAL_CONFIG_DIR}/$$filename .vscode/$$filename; \
