@@ -4,6 +4,7 @@
     "editor.suggest.insertMode": "replace"
   },
   "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [80],
@@ -67,19 +68,22 @@
   },
   "breadcrumbs.enabled": true,
   "cSpell.ignoreRegExpList": ["[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"],
-  "cSpell.userWords": ["Brewfile", "elif"],
+  "cSpell.userWords": ["Brewfile", "elif", "Firestore"],
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
   "debug.inlineValues": true,
   "debug.internalConsoleOptions": "openOnSessionStart",
   "debug.openDebug": "openOnSessionStart",
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
   "editor.copyWithSyntaxHighlighting": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "\"Cica\"",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
@@ -151,6 +155,7 @@
     "sortJSONTypeReverse": false,
     "sortJSONValuesReverse": false
   },
+  "tableformatter.common.explicitFullwidthChars": [],
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "\"Cica\"",
   "terminal.integrated.fontSize": 14,
