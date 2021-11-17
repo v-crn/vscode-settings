@@ -1,4 +1,4 @@
-. shell/functions/install.sh
+. shell/functions/install_ext_array.sh
 . shell/functions/list_extensions.sh
 . shell/functions/valid_filepath.sh
 
