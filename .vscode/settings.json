@@ -66,6 +66,7 @@
     },
     "editor.tabSize": 2
   },
+  "window.customMenuBarAltFocus": false,
   "breadcrumbs.enabled": true,
   "cSpell.ignoreRegExpList": ["[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"],
   "cSpell.userWords": ["Brewfile", "elif", "Firestore"],
