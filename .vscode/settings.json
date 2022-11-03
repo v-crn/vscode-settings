@@ -138,7 +138,6 @@
   "python.linting.flake8Args": [
     "--max-line-length=88",
     "--max-complexity=20",
-    "--ignore = E203,W503,W504"
   ],
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
